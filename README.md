@@ -2,7 +2,9 @@
 
 A collection of bash scripts that will download and install packages that I use that traditionally require you going to a website to download the DEB, TAR, etc.
 
-Tested on Ubuntu only (so far).
+* Any scripts that use `dpkg`, or `apt` would be Ubuntu specific.
+* Others should work on most *nix* systems.
+* I test on [Ubuntu Budgie](http://www.ubuntubudgie.org), however your desktop wouldn't matter. So any Ubuntu should work fine.
 
 ## Scripts TOC
 
