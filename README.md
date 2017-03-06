@@ -7,5 +7,6 @@ Tested on Ubuntu only (so far).
 ## Scripts TOC
 
 ### Golang
+### Script - install-latest-version-golang.sh
 #### Description
 * Downloads the latest golang version and installs.
