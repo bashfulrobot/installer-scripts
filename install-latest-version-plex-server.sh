@@ -27,7 +27,7 @@ then
 fi
 }
 
-## TODO: Check if installed
+## Check if installed
 check-if-installed jq -y
 
 # Get the file name (Latest version)
