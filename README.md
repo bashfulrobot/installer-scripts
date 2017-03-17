@@ -16,4 +16,4 @@ A collection of bash scripts that will download and install packages that I use 
 ### Plex Server
 ### Script `install-latest-version-plex-server.sh`
 #### Description
-* Downloads and installs the latest version of the Plex Server. Leverages the Plex public API to get the latest version.
+* Downloads and installs the latest version of the Plex Server DEB file. Leverages the Plex public API to get the latest version. Currenty targets Ubuntu 64-bit. Would be easy to change.
