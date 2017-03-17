@@ -17,3 +17,8 @@ A collection of bash scripts that will download and install packages that I use 
 ### Script `install-latest-version-plex-server.sh`
 #### Description
 * Downloads and installs the latest version of the Plex Server DEB file. Leverages the Plex public API to get the latest version. Currenty targets Ubuntu 64-bit. Would be easy to change.
+
+### Neovim/Spacevim
+### Script `install-spacevim.sh`
+#### Description
+* Downloads and installs Neovim, and then Spacevim (and associated packages) on Ubuntu. There is one command with curls a script into bash. I evaluated the script before installing, and I highly suggest that you do too.
