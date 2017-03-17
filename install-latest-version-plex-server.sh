@@ -45,7 +45,7 @@ check-if-installed jq -y
 ### *whew*.
 declare -r DL_PATH=`$ECHO $($CURL -s 'https://plex.tv/api/downloads/1.json' | $JQ  '.computer.Linux.releases[] | select(.distro == "ubuntu") | select(.label | contains("64-bit"))' | $JQ '.url') | $TR -d '"'`
 
-declare -R DL_FILE=`$ECHO $($BASENAME $DL_PATH)`
+declare -r DL_FILE=`$ECHO $($BASENAME $DL_PATH)`
 
 # Create directories
 ## TODO - Add a check to skip
