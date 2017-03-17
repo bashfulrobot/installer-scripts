@@ -12,3 +12,8 @@ A collection of bash scripts that will download and install packages that I use 
 ### Script `install-latest-version-golang.sh`
 #### Description
 * Downloads the latest golang version and installs.
+
+### Plex Server
+### Script `install-latest-version-plex-server.sh`
+#### Description
+* Downloads and installs the latest version of the Plex Server. Leverages the Plex public API to get the latest version.
