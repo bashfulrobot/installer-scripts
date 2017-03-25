@@ -12,8 +12,8 @@ declare -r EGREP="/bin/egrep"
 declare -r TAR="/bin/tar"
 declare -r MKDIR="/bin/mkdir"
 declare -r RM="/bin/rm"
-declare -r ECHO="bin/echo"
-declare -r CAT="bin/cat"
+declare -r ECHO="/bin/echo"
+declare -r CAT="/bin/cat"
 # Get the file name (Latest version)
 DL_FILE=`echo $($WGET --quiet -O- $BASEURL | $EGREP -o 'go[0-9\.]+.linux-amd64.tar.gz' | sort -V  | tail -1)`
 
