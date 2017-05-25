@@ -25,31 +25,25 @@ $MKDIR -p $DOWNLOAD_DIR
 
 cd $DOWNLOAD_DIR
 $WGET $BASEURL$DL_FILE
-$TAR -xf $DOWNLOAD_DIR$DL_FILE -C $INSTALL_DIR
+sudo $TAR -xf $DOWNLOAD_DIR$DL_FILE -C $INSTALL_DIR
 $RM -f $DOWNLOAD_DIR$DL_FILE
 
-$ECHO "Add the following to your bashrc:"
+$ECHO "Add the following to your .bashrc & .profile:"
 
 $CAT << EOF
 
 if [ -e "/usr/local/go/bin/go" ]
 then
   export GOPATH=$HOME/go
-  export GOBIN=/usr/local/go/bin
+  export GOBIN=$GOPATH/bin
   export PATH=$PATH:/usr/local/go/bin
+  export
+
   if [ ! -d "$GOPATH" ]
      then
         mkdir -p $GOPATH/{src,pkg,bin}
   fi
-elif [ -e "$HOME/go/bin/go" ]
-then
-  export GOROOT="$HOME/go"
-  export PATH=$PATH:$GOROOT/bin
-  export GOBIN=$GOROOT/go/bin
-  if [ ! -d "$GOPATH" ]
-     then
-        mkdir -p $GOPATH/{src,pkg,bin}
-  fi
+
 fi
 
 EOF
