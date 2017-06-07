@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+##### IN PROGRESS - not working
+
+
 # User Settings
 declare -r INSTALL_DIR="/usr/local/"
 declare -r DOWNLOAD_DIR="$HOME/Downloads/"
