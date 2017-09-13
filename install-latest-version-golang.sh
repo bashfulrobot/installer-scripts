@@ -36,8 +36,7 @@ if [ -e "/usr/local/go/bin/go" ]
 then
   export GOPATH=$HOME/go
   export GOBIN=$GOPATH/bin
-  export PATH=$PATH:/usr/local/go/bin
-  export
+  export PATH=$PATH:/usr/local/go/bin:$GOBIN
 
   if [ ! -d "$GOPATH" ]
      then
