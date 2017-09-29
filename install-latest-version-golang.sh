@@ -4,6 +4,7 @@
 declare -r INSTALL_DIR="/usr/local/"
 declare -r DOWNLOAD_DIR="$HOME/Downloads/"
 declare -r BASEURL="https://storage.googleapis.com/golang/"
+https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
 
 # Portability - executables
 ## TODO - use `which` to populate dynamically
@@ -15,7 +16,8 @@ declare -r RM="/bin/rm"
 declare -r ECHO="/bin/echo"
 declare -r CAT="/bin/cat"
 # Get the file name (Latest version)
-DL_FILE=`echo $($WGET --quiet -O- $BASEURL | $EGREP -o 'go[0-9\.]+.linux-amd64.tar.gz' | sort -V  | tail -1)`
+#DL_FILE=`echo $($WGET --quiet -O- $BASEURL | $EGREP -o 'go[0-9\.]+.linux-amd64.tar.gz' | sort -V  | tail -1)`
+DL_FILE="go1.9.linux-amd64.tar.gz"
 
 # Create directories
 ## TODO - Add a check to skip
