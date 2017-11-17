@@ -1,3 +1,5 @@
+# NOTE - I'm depreciating this repo in favour of snap packages (https://snapcraft.io / https:forum.snapcraft.io). These were just meant to ease re-installation of my systems. There are many better ways to do this.
+
 # installer-scripts
 
 A collection of bash scripts that will download and install packages that I use that traditionally require you going to a website to download the DEB, TAR, etc.
