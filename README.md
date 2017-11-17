@@ -1,4 +1,4 @@
-# NOTE - I'm depreciating this repo in favour of snap packages (https://snapcraft.io or https:forum.snapcraft.io). These were just meant to ease re-installation of my systems. There are many better ways to do this.
+# NOTE - I'm depreciating this repo in favour of snap packages (https://snapcraft.io or https://forum.snapcraft.io). These were just meant to ease re-installation of my systems. There are many better ways to do this.
 
 # installer-scripts
 
