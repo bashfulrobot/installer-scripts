@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# User Settings
+## User Settings
 declare -r INSTALL_DIR="/opt/franz/"
 declare -r DOWNLOAD_DIR="$HOME/Downloads/"
 

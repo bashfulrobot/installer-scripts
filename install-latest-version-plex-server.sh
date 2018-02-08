@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#
 
 # User Settings
 declare -r DOWNLOAD_DIR="$HOME/Downloads/"
